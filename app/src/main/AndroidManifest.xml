@@ -47,6 +47,7 @@
         <activity android:name=".LawsActivity" />
         <activity android:name=".ShowBasicLawActivity"/>
         <activity android:name=".DefenseActivity"/>
+        <activity android:name=".FakeCallActivity"/>
 
         <!-- Google Maps API key -->
         <meta-data

@@ -76,6 +76,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        LinearLayout fake_call = findViewById(R.id.one);
+        fake_call.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, FakeCallActivity.class);
+                startActivity(intent);
+            }
+        });
+
         sosButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
