@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.SafeHaven" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorOnBackground">@color/black</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/black</item>
+    </style>
+</resources>
+
+
+
+<!--<resources xmlns:tools="http://schemas.android.com/tools">-->
+<!--    <style name="Theme.SafeHaven" parent="Theme.Material3.DayNight">-->
+<!--        <item name="colorPrimary">@color/purple_200</item>-->
+<!--        <item name="colorPrimaryVariant">@color/purple_500</item>-->
+<!--        <item name="colorOnPrimary">@android:color/white</item>-->
+
+<!--        <item name="android:windowBackground">@color/black</item>-->
+<!--        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>-->
+<!--    </style>-->
+<!--</resources>-->
+

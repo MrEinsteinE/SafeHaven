@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DefenseActivity">
+
+    <TextView
+        android:id="@+id/title_safe_haven"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Safe Haven"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary"
+        android:gravity="center"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Decorative oval background in top-left corner -->
+    <View
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/top_left_corner_oval"/>
+
+    <!-- LinearLayout to hold multiple images, replacing the WebView -->
+    <LinearLayout
+        android:id="@+id/defense_images_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <!-- First image -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/self_defense_image1"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Second image -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/self_defense_image2"/>
+
+    </LinearLayout>
+
+    <!-- Updated TextView positioned below the images -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="These images demonstrate some self-defense techniques"
+        android:layout_below="@id/defense_images_layout"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
