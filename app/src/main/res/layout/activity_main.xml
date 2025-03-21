@@ -174,11 +174,23 @@
         android:id="@+id/sos_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="SOS - Tap or Shake"
+        android:text="SOS - Hold or tap and Shake"
         android:textSize="18sp"
         android:backgroundTint="@color/red"
         android:textColor="@android:color/white"
         android:layout_marginTop="10dp"
         android:padding="12dp"/>
+    <!-- Stop Shaking Service Button -->
+    <Button
+        android:id="@+id/stop_shaking_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/yellow"
+        android:padding="12dp"
+        android:text="Stop Shaking Service"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
 
 </LinearLayout>

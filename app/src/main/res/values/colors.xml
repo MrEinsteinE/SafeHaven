@@ -9,7 +9,9 @@
     <color name="black">#000000</color>
     <color name="white">#FFFFFF</color>
     <color name="purple_200">#BB86FC</color>
-    <color name="red">#D32F2F</color> <!-- SOS Button -->
+    <color name="red">#D32F2F</color>
+    <color name="yellow">#BA9318</color>
+
 </resources>
 
 <!--<resources>-->
