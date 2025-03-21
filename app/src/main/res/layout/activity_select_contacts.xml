@@ -6,6 +6,32 @@
     android:orientation="vertical"
     android:padding="16dp">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="20dp">
+
+        <!-- Safe Haven Logo -->
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/safe_haven_logo"
+            android:layout_marginEnd="10dp" />
+
+        <!-- Safe Haven Title -->
+        <TextView
+            android:id="@+id/title_safe_haven"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Safe Haven"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary"
+            android:gravity="center_vertical"/>
+    </LinearLayout>
+
     <!-- Select Contact Button -->
     <Button
         android:id="@+id/btn_select_contact"
@@ -29,18 +55,6 @@
 
     <!-- Save Contacts Button -->
     <Button
-        android:id="@+id/btn_save_contacts"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Save Contacts"
-        android:textSize="18sp"
-        android:padding="10dp"
-        android:backgroundTint="@android:color/holo_green_dark"
-        android:textColor="@android:color/white"
-        android:layout_marginTop="10dp"/>
-
-    <!-- Clear Contacts Button -->
-    <Button
         android:id="@+id/btn_clear_contacts"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -48,6 +62,18 @@
         android:textSize="18sp"
         android:padding="10dp"
         android:backgroundTint="@android:color/holo_red_light"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="10dp"/>
+
+    <!-- Clear Contacts Button -->
+    <Button
+        android:id="@+id/btn_save_contacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Contacts"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:backgroundTint="@android:color/holo_green_dark"
         android:textColor="@android:color/white"
         android:layout_marginTop="10dp"/>
 
