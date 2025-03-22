@@ -63,11 +63,15 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         LinearLayout basicLaw = findViewById(R.id.four);
         LinearLayout selfDefense = findViewById(R.id.two);
         LinearLayout fakeCall = findViewById(R.id.one);
+        LinearLayout saferLocations = findViewById(R.id.three);
+
 
         btnSelectContact.setOnClickListener(v -> startActivity(new Intent(MainActivity.this, SelectContactsActivity.class)));
         basicLaw.setOnClickListener(v -> startActivity(new Intent(MainActivity.this, LawsActivity.class)));
         selfDefense.setOnClickListener(v -> startActivity(new Intent(MainActivity.this, DefenseActivity.class)));
         fakeCall.setOnClickListener(v -> startActivity(new Intent(MainActivity.this, FakeCallActivity.class)));
+        saferLocations.setOnClickListener(v -> startActivity(new Intent(MainActivity.this, CrowdedAreasMapActivity.class)));
+
 
         // Tap SOS button -> Start Shake Detection
         sosButton.setOnClickListener(v -> startShakeDetectionService());

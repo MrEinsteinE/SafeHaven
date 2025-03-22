@@ -71,10 +71,42 @@ dependencies {
     // Retrofit (For fetching safer places dynamically via an API)
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation("com.android.volley:volley:1.2.1")
 
     // Material Components (for Material 3 design)
     implementation("androidx.compose.material3:material3:1.2.0")
     implementation("com.google.android.material:material:1.11.0")
+    implementation("com.google.android.gms:play-services-maps:18.2.0")
+    implementation ("com.google.android.gms:play-services-location:21.0.1")
+
+    implementation("androidx.appcompat:appcompat:1.7.0")
+    implementation("com.google.android.material:material:1.12.0")
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+
+    // ShakeDetector library (unchanged, as it's a third-party library)
+    implementation("com.github.tbouron.shakedetector:library:1.0.0@aar")
+
+    // Google Maps and Location services
+    implementation("com.google.android.gms:play-services-maps:18.2.0") // Updated to latest stable
+    implementation("com.google.android.gms:play-services-location:21.3.0") // Already up-to-date
+
+    implementation("androidx.appcompat:appcompat:1.7.0")
+    implementation("com.google.android.material:material:1.12.0")
+    implementation("com.github.tbouron.shakedetector:library:1.0.0@aar")
+    implementation("com.google.android.gms:play-services-maps:18.2.0")
+    implementation("com.google.android.gms:play-services-location:21.3.0")
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+    // Remove Places SDK dependency (no longer needed)
+    // implementation("com.google.android.libraries.places:places:3.3.0")
+    implementation("com.google.maps.android:android-maps-utils:3.0.0")
+    implementation("com.google.maps:google-maps-services:0.18.2") // Still needed for Routes API
+    implementation("org.slf4j:slf4j-simple:2.0.9")
+    implementation("com.google.android.libraries.places:places:4.2.0")
+    testImplementation("junit:junit:4.13.2")
+    androidTestImplementation("androidx.test.ext:junit:1.2.1")
+    androidTestImplementation("androidx.test.espresso:espresso-core:3.6.1")
+    androidTestImplementation("com.google.maps.android:android-maps-utils:3.0.0")
+    androidTestImplementation("com.google.android.libraries.places:places:3.3.0")
 
     // OpenStreetMap JSON parsing
     implementation("org.json:json:20210307")
