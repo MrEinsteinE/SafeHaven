@@ -123,3 +123,8 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 ---
 
 > 💡 *SafeHaven is more than an app — it’s a silent companion ensuring your safety when it matters most.*
+## 📦 Download
+[![GitHub release (latest)](https://img.shields.io/github/v/release/MrEinsteinE/SafeHaven?style=for-the-badge)](https://github.com/MrEinsteinE/SafeHaven/releases/latest)
+
+➡️ **[Download the latest SafeHaven APK](https://github.com/MrEinsteinE/SafeHaven/releases/latest)**  
+
